@@ -310,6 +310,7 @@ importers:
   packages/nouns-wagmi:
     specifiers:
       '@babel/core': 7.18.5
+      '@nouns/contracts': ^0.1.3
       '@pooly-nouns-labs/core-sol': 0.0.0-beta.0
       '@size-limit/preset-small-lib': ^7.0.8
       '@types/node': ^18.0.0
@@ -327,6 +328,7 @@ importers:
       typescript: ^4.7.4
       wagmi: 0.4.12
     dependencies:
+      '@nouns/contracts': 0.1.3
       classnames: 2.3.1
       prop-types: 15.8.1
       wagmi: 0.4.12_2pvqx3wni2imkaucnfdtyrjuiq
