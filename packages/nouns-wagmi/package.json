@@ -1,6 +1,6 @@
 {
   "name": "@pooly-nouns-labs/nouns-wagmi",
-  "author": "kames",
+  "author": "Friends of Pooly",
   "module": "dist/nouns-wagmi.esm.js",
   "version": "0.0.0-beta.0",
   "license": "MIT",

@@ -5,6 +5,14 @@
 
 # Checklist
 
+The Pooly<>Nouns stack is divided into application and packages.
+
+## Nouns WAGMI React Library
+
+package: `@pooly-nouns-labs/nouns-wagmi`
+
+### Hooks
+
 - [x] useNounsAuctionHouseContract
 - [x] useNounsAuctionHouseRead
 - [x] useNounsAuctionHouseWrite
@@ -17,6 +25,38 @@
 - [x] useNounsTokenContract
 - [x] useNounsTokenRead
 - [x] useNounsTokenWrite
+
+### Components
+
+- [ ] AuctionActivity
+- [ ] AuctionDateHeadline
+- [ ] AuctionNounTitle
+- [ ] AuctionTimer
+- [ ] BidHistory
+- [ ] ChangeDelegator
+- [ ] CurrentBid
+- [ ] NounCard
+- [ ] NounImage
+- [ ] NounInfoCard
+- [ ] NounProfile
+- [ ] Noun
+- [ ] ProposalContent
+- [ ] ProposalHeader
+- [ ] ProposalStatus
+- [ ] ProposalTransactions
+- [ ] Proposal
+- [ ] Proposals
+- [ ] VoteCards
+
+## Nouns WAGMI App
+
+package: `@pooly-nouns-labs/wagmi-app`
+
+### View
+
+- [ ] Home (index.ts)
+- [ ] Noun (noun.ts)
+- [ ] Profile (profile.ts)
 
 ### Installation & Usage
 
