@@ -1,6 +1,10 @@
 import { Main } from "@/templates/Main";
 import { Meta } from "@/templates/Meta";
 import { AppConfig } from "@/utils/AppConfig";
+import Image from "next/image";
+import poolyNounImg from "@/res/images/poolynoun.png";
+import poolyPfpImg from "@/res/images/poolypfp.png";
+
 
 const Index = () => {
   return (
@@ -15,7 +19,7 @@ const Index = () => {
       <section className="mx-auto bg-gradient-to-br from-indigo-700 via-indigo-800 to-indigo-900 py-32 text-neutral-500 shadow-sm dark:from-indigo-700 dark:via-indigo-800 dark:to-indigo-900 dark:text-white text-white">
         <div className="container max-w-screen-md mx-auto grid grid-cols-12 gap-x-10">
           <div className="col-span-6 p-10">
-            <img src="/poolynoun.png" className="w-full" />
+            <Image src={poolyNounImg} className={"w-full"} />
           </div>
           <div className="col-span-6 flex items-center">
             <div className="">
@@ -46,7 +50,7 @@ const Index = () => {
             </div>
           </div>
           <div className="col-span-6">
-            <img src="/poolypfp.png" className="w-full" />
+            <Image src={poolyPfpImg} className={"w-full"} />
           </div>
         </div>
       </section>

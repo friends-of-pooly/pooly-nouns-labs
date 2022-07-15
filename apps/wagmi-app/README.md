@@ -90,6 +90,7 @@ Open http://localhost:3000 with your favorite browser to see your project.
 │   ├── layouts                     # Layouts components
 │   ├── pages                       # Next JS Pages
 │   ├── pages.test                  # Next JS Pages tests (this avoid test to treated as a Next.js pages)
+│   ├── res                         # Private Resources folder
 │   ├── styles                      # Styles folder
 │   ├── templates                   # Default template
 │   └── utils                       # Utility functions
